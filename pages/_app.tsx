@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Head from 'next/head'
 import smoothscroll from 'smoothscroll-polyfill'
+import Script from 'next/script'
 // import {NextPage} from 'next'
 import {AppProps} from 'next/app'
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query'
@@ -63,40 +64,27 @@ export default function App({
           <meta property='og:image' content='/images/og.png' />
 
           <link rel='icon' type='image/png' href='/images/pat.png' />
-
-          <link rel='preconnect' href='https://fonts.gstatic.com' />
-
-          <link
-            href='https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=block'
-            rel='stylesheet'
-          />
-
-          <link
-            href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Lato:300,700|Oswald|Fjalla+One|Raleway:200&display=block'
-            rel='stylesheet'
-          />
-
-          <script
-            async
-            src='https://www.googletagmanager.com/gtag/js?id=G-YC0W20YVMG'
-          />
-
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-YC0W20YVMG');
-              `,
-            }}
-          />
         </Head>
 
         {getLayout(<Component {...pageProps} />)}
 
         <ReactQueryDevtools initialIsOpen={false} />
+
+        <Script
+          strategy='lazyOnload'
+          src='https://www.googletagmanager.com/gtag/js?id=G-YC0W20YVMG'
+          id='gtag'
+        />
+
+        <Script strategy='lazyOnload' id='gtagConfig'>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-YC0W20YVMG');
+            `}
+        </Script>
       </QueryClientProvider>
     </Redux>
   )
