@@ -50,8 +50,8 @@ const Index: NextPage<{}> = () => {
                   company: 'Nanameue Inc.',
                   time: '2016–2019, 2022-present',
                   lis: [
-                    'Developed web applications focusing on Ruby on Rails, React, and Redux. Products varies from a twitter-like social network with millions of users, a web application which features an NTF marketplace, and a web3 dashboard that interacts with Ethereum contracts.',
-                    'Specialised in implementing off-the-grid designs, single page applications with complex modules, and interactive and animating graphs and charts.',
+                    'Primary stacks consist of Next.js with Redux and Ruby on Rails. Products varies from a twitter-like social network with millions of users, a web application featuring an NTF marketplace, and a web3 dashboard that interacts with Ethereum contracts.',
+                    'Specialised in implementing off-the-grid designs and interactive and animating graphs and charts.',
                     'Formerly Senior Front-end/Rails developer. Relocated to Thailand once in 2019, returned in 2022.',
                   ],
                 },
@@ -60,8 +60,8 @@ const Index: NextPage<{}> = () => {
                   company: 'Data Wow Co., Ltd.',
                   time: '2019–2022',
                   lis: [
-                    'Developed web applications focusing on Ruby on Rails, React, and Redux. Fell in love with Next.js. Adopted Docker for development environment.',
-                    'In my younger days I could hardly imaging myself being team leader, but I am one now. So stuff like reports, process trackings, and task management have been my new norm.',
+                    'Developed web applications using Ruby on Rails, Next.js, and Redux. Adopted Docker for development environment. Primary project was a video call platform with an e-commerce service',
+                    'In my younger days I could hardly imagine myself being a team leader, but I was one then. So stuff like reports, process trackings, and task management were my new norm.',
                   ],
                 },
                 {
@@ -69,8 +69,8 @@ const Index: NextPage<{}> = () => {
                   company: 'Oozou Limited',
                   time: '2012–2014',
                   lis: [
-                    'Developed web applications focusing on Ruby on Rails and AngularJs. Products varied from a startup management system, a real estate management system, a wiki system with medium-like text editor, and an asset management system with interactive graphs.',
-                    'Switched to VIM, one of the best decision ever.',
+                    'Developed web applications using on Ruby on Rails and AngularJS. Products varied from a startup management system, a real estate management system, a wiki system with a medium-like text editor, and an asset management system with interactive graphs.',
+                    'Switched to VIM, one of my best decision ever.',
                   ],
                 },
                 {
@@ -78,7 +78,7 @@ const Index: NextPage<{}> = () => {
                   company: 'Thomson Reuters Software Thailand',
                   time: '2010–2012',
                   lis: [
-                    'Developed a content management application platform using ASP.net C# WebForm. Maintained and improve Thread-based Windows Service.',
+                    'Developed a content management application platform using ASP.net C# WebForm. Maintained and improved Thread-based Windows Service.',
                     'Adapted an existing complex CSS and JavaScript to support modern browsers.',
                   ],
                 },
