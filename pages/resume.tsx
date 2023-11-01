@@ -60,7 +60,7 @@ const Index: NextPage<{}> = () => {
                   company: 'Data Wow Co., Ltd.',
                   time: '2019–2022',
                   lis: [
-                    'Developed web applications using Ruby on Rails, Next.js, and Redux. Adopted Docker for development environment. Primary project was a video call platform with an e-commerce service',
+                    'Developed web applications using Ruby on Rails, Next.js, and Redux. Adopted Docker for development environment. Primary project was a video call platform with an e-commerce service.',
                     'In my younger days I could hardly imagine myself being a team leader, but I was one then. So stuff like reports, process trackings, and task management were my new norm.',
                   ],
                 },
